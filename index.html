@@ -4,9 +4,201 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Admin Dashboard</title>
 </head>
 <body>
+    <div class="container">
+        <div class="header">
+            <div class="searchgroup">
+                <input type="image" src="./img/magnify.svg" alt="submit" id="search">
+                <input type="search" name="searchbox" id="searchbox">
+            </div>
+            
+            <div class="usergroup">
+                <img src="./img/bell-ring.svg" alt="notifications" id="notification-icon" >
+                <img src="./img/1.png" alt="avatar" id="avatar" >
+                <div class="name">Miguel Farias</div>
+            </div>
+
+            <div class="greeting">
+                <img src="./img/1.png" alt="bigAvatar" id="avatar-big" >
+                <div class="greeting-text">
+                    <div class="hi">Hi there,</div>
+                    <div class="user-info">Miguel Farias (@Arkandria)</div>
+                </div>
+            </div>
+            <div class="buttons">
+                <button class="action-button">New</button>
+                <button class="action-button">Upload</button>
+                <button class="action-button">Share</button>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="logo-holder">
+                <img src="./img/logo.svg" alt="logo" class="logo">
+                <div class="logo-title">Dashboard</div>
+            </div>
+            <div class="menu">
+                <div class="option">
+                    <img src="./img/home.svg" alt="home" class="icon">
+                    <div class="menutitle">Home</div>
+                </div>
+                <div class="option">
+                    <img src="./img/card-account-details.svg" alt="profile" class="icon">
+                    <div class="menutitle">Profile</div>
+                </div>
+                <div class="option">
+                    <img src="./img/message-reply-text.svg" alt="message" class="icon">
+                    <div class="menutitle">Messages</div>
+                </div>
+                <div class="option">
+                    <img src="./img/history.svg" alt="history" class="icon">
+                    <div class="menutitle">History</div>
+                </div>
+                <div class="option">
+                    <img src="./img/file-sign.svg" alt="tasks" class="icon">
+                    <div class="menutitle">Tasks</div>
+                </div>
+                <div class="option">
+                    <img src="./img/account-group.svg" alt="community" class="icon">
+                    <div class="menutitle">Communities</div>
+                </div>
+
+            </div>
+            <div class="advanced-menu">
+                <div class="option">
+                    <img src="./img/cog.svg" alt="settings" class="icon">
+                    <div class="menutitle">Settings</div>
+                </div>
+                <div class="option">
+                    <img src="./img/face-agent.svg" alt="support" class="icon">
+                    <div class="menutitle">Support</div>
+                </div>
+                <div class="option">
+                    <img src="./img/shield-lock.svg" alt="privacy" class="icon">
+                    <div class="menutitle">Privacy</div>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            
+            <div class="projects">
+                <div class="project-card-title">Your Projects</div>
+                <div class="project-cards">
+                    <div class="card">
+                        <span class="project-title">Project 1</span>
+                        <div class="project-description"></div>
+                        <div class="card-icons">
+                            <img src="./img/star-plus-outline.svg" alt="favorite">
+                            <img src="./img/eye-plus-outline.svg" alt="viewmore">
+                            <img src="./img/share-variant.svg" alt="share">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="project-title">Project 2</span>
+                        <div class="project-description"></div>
+                        <div class="card-icons">
+                            <img src="./img/star-plus-outline.svg" alt="favorite">
+                            <img src="./img/eye-plus-outline.svg" alt="viewmore">
+                            <img src="./img/share-variant.svg" alt="share">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="project-title">Project 3</span>
+                        <div class="project-description"></div>
+                        <div class="card-icons">
+                            <img src="./img/star-plus-outline.svg" alt="favorite">
+                            <img src="./img/eye-plus-outline.svg" alt="viewmore">
+                            <img src="./img/share-variant.svg" alt="share">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="project-title">Project 4</span>
+                        <div class="project-description"></div>
+                        <div class="card-icons">
+                            <img src="./img/star-plus-outline.svg" alt="favorite">
+                            <img src="./img/eye-plus-outline.svg" alt="viewmore">
+                            <img src="./img/share-variant.svg" alt="share">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="project-title">Project 5</span>
+                        <div class="project-description"></div>
+                        <div class="card-icons">
+                            <img src="./img/star-plus-outline.svg" alt="favorite">
+                            <img src="./img/eye-plus-outline.svg" alt="viewmore">
+                            <img src="./img/share-variant.svg" alt="share">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="project-title">Project 6</span>
+                        <div class="project-description"></div>
+                        <div class="card-icons">
+                            <img src="./img/star-plus-outline.svg" alt="favorite">
+                            <img src="./img/eye-plus-outline.svg" alt="viewmore">
+                            <img src="./img/share-variant.svg" alt="share">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="announce">
+                <div class="ann-section-title">Announcements</div>
+                <div class="announce-cards">
+                    <div class="announcement">
+                        <span class="ann-title">Site Maintenance</span>
+                        <div class="ann-text"></div>
+                    </div>
+                </div>
+                <div class="announce-cards">
+                    <div class="announcement">
+                        <span class="ann-title">Community Share Day</span>
+                        <div class="ann-text"></div>
+                    </div>
+                </div>
+                <div class="announce-cards">
+                    <div class="announcement">
+                        <span class="ann-title">Updated Privacy Policy</span>
+                        <div class="ann-text"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="trending">
+                <div class="trending-title"></div>
+                <div class="trnding-card">
+                    <div>
+                        <img src="./img/5.png" alt="user1">
+                        <div class="user-data">
+                            <div class="usertag">@Aldarion</div>
+                            <div class="username">J R R Tolkien</div>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./img/2.png" alt="user2">
+                        <div class="user-data">
+                            <div class="usertag">@Shizuko</div>
+                            <div class="username">Hyper Artist</div>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./img/4.png" alt="user3">
+                        <div class="user-data">
+                            <div class="usertag">@Hannashka</div>
+                            <div class="username">Mega Fan</div>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./img/3.png" alt="">
+                        <div class="user-data">
+                            <div class="usertag">@Elisaal</div>
+                            <div class="username">Super Dev</div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </div>
     
 </body>
 </html>
